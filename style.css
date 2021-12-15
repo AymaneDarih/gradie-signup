@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background: linear-gradient(225deg, #fb80e4 0%, #80fa97 100%) no-repeat fixed;
+
+}
+
+.sign {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 7rem auto;
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    justify-content: center;
+
+}
+
+.chk {
+    width: 3rem;
+}
+
+.phone-img {
+    text-align: center;
+}
+
+.phone {
+    width: 100%;
+    position: relative;
+    bottom: 9.5rem;
+    transform: scale(1.4);
+}
+
+.left-content {
+    background-color: #083444;
+    text-align: center;
+    padding: 5rem 4rem 0;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+
+.head-l {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.6;
+
+}
+
+.head-l-p {
+    font-size: 1.7rem;
+    color: white;
+    letter-spacing: 0.75px;
+    font-weight: 300;
+    opacity: 80%;
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.input {
+    padding: 1.6rem;
+    font-size: 1.7rem;
+    margin: 1.2rem 0;
+    border: 2.5px solid rgba(175, 168, 168, 0.561);
+    border-radius: 0.5rem;
+}
+
+.checking {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.terms {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+}
+
+.terms a {
+    color: #083444;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.right-content {
+    padding: 5rem 9rem;
+    background-color: white;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.head-r {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: black;
+    line-height: 1.6;
+}
+
+.button {
+    text-align: center;
+    margin-top: 5rem;
+    border-radius: 0.6rem;
+    background-color: #083444;
+    padding: 2rem 5rem;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
